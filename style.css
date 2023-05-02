@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo&family=Lato&family=Poppins:wght@300&display=swap");
+
+body {
+  background-image: url("https://rehaimin.github.io/GithubApi/images/bgweb.jpg");
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.logo {
+  width: 60%;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 13%;
+  width: 20%;
+  background-color: #787878;
+}
+input::placeholder {
+  color: #acacac;
+}
+input:focus-visible {
+  outline: none;
+}
+.user {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  background-color: #7d7d7d;
+  width: 40%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+}
+.image-profil {
+  width: 60%;
+}
+.login {
+  color: #cacaca;
+}
+.name {
+  color: #000000;
+}
+.link-github {
+  color: white;
+  border: none;
+  background-color: #4785ac;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.profil {
+  border-right: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.site-name {
+  background-color: #1a3a4e;
+  color: rgb(230, 228, 228);
+  padding: 10px 5px;
+  border: none;
+  border-radius: 3px;
+  width: 75%;
+  transition: transform 1s;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.site-name:hover {
+  transform: scale(1.1);
+}
+.line {
+  height: 100%;
+  border-left: 1px solid rgb(120, 120, 120);
+}
